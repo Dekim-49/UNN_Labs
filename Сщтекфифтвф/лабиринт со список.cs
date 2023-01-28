@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,17 +13,15 @@ namespace Елернинг
 {
     public partial class Form1 : Form
     {
-        public Form1()
-        {
-            InitializeComponent();
-        }
-        Form1 f;
-        int one = 50;
-        Point smeh;
-        Point start;
-        int randX;
-        int randY;
-        int[,] Matrix = new int[10, 10];
+            public Form1()
+            {
+                InitializeComponent();
+            }
+        int one = 50;//ширина одного куба 
+        Point start;//начальная позиция куба 
+        int randX;//рандомная координата X
+        int randY;//рандоманя координата У
+        int[,] Matrix = new int[10, 10];//матрица 
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -41,14 +39,12 @@ namespace Елернинг
             listBox1.Items.Add("Влево");
         }
 
-        private void Gener_Click(object sender, EventArgs e)
+        private void Gener_Click(object sender, EventArgs e)//генерация поля
         {
             Graphics g = panel1.CreateGraphics();
             g.Clear(Color.White);
-
-            int sirina = panel1.Width;
-            int visota = panel1.Height;
             Random random = new Random();
+            //Инициализация 
             for (int i = 0; i < 10; i++)
             {
                 for (int j = 0; j < 10; j++)
@@ -56,6 +52,7 @@ namespace Елернинг
                     Matrix[i, j] = 0;
                 }
             }
+            //Прорисовка кубиков и запись в матрицу 
             for (int i = 0; i < 10; i++)
             {
                 randX = random.Next(10);
@@ -63,11 +60,13 @@ namespace Елернинг
                 Matrix[randX, randY] = 1;
                 g.FillRectangle(Brushes.Silver, randX * one, randY * one, one, one);
             }
+            //прорисовка сетки 
             for (int i = 0; i <= 10; i++)
             {
                 g.DrawLine(Pens.Black, 0, i * one, panel1.Width, i * one);
                 g.DrawLine(Pens.Black, i * one, 0, i * one, panel1.Width);
             }
+            //выбор произвольной точки 
             do
             {
                 randX = random.Next(10);
@@ -76,11 +75,6 @@ namespace Елернинг
                 g.FillEllipse(Brushes.Red, one * randX  , one * randY, 50, 50);
                 start = new Point(randX,randY);
             } while (Matrix[randX, randY] == 1);
-            int k = 0;
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
         }
 
         private void right_Click(object sender, EventArgs e)
@@ -96,7 +90,6 @@ namespace Елернинг
         private void Srartt_Click(object sender, EventArgs e)
         {
             timer1.Start();
-
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -108,7 +101,6 @@ namespace Елернинг
                 {
                     if (start.Y != 0)
                     {
-                        smeh = new Point(0, -50);
                         g.FillEllipse(Brushes.White, start.X * one, start.Y * one, 50, 50);
                         g.FillEllipse(Brushes.Red, start.X * one, (start.Y - 1) * one, one, one);
                         start.Y = start.Y - 1;
@@ -118,7 +110,6 @@ namespace Елернинг
                 {
                     if (start.Y != 9)
                     {
-                        smeh = new Point(0, 50);
                         g.FillEllipse(Brushes.White, start.X * one, start.Y * one, 50, 50);
                         g.FillEllipse(Brushes.Red, start.X * one, (start.Y + 1) * one, one, one);
                         start.Y = start.Y + 1;
@@ -128,7 +119,6 @@ namespace Елернинг
                 {
                     if (start.X != 9)
                     {
-                        smeh = new Point(50, 0);
                         g.FillEllipse(Brushes.White, start.X * one, start.Y * one, 50, 50);
                         g.FillEllipse(Brushes.Red, (start.X + 1) * one, start.Y * one, one, one);
                         start.X = start.X + 1;
@@ -138,7 +128,6 @@ namespace Елернинг
                 {
                     if (start.Y != 0)
                     {
-                        smeh = new Point(-50, 0);
                         g.FillEllipse(Brushes.White, start.X * one, start.Y * one, 50, 50);
                         g.FillEllipse(Brushes.Red, (start.X - 1) * one, start.Y * one, one, one);
                         start.X = start.X - 1;
@@ -156,3 +145,4 @@ namespace Елернинг
         }
     }
 }
+
