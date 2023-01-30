@@ -41,6 +41,8 @@ namespace Елернинг
 
         private void Gener_Click(object sender, EventArgs e)//генерация поля
         {
+            Srartt.Enabled = true;
+            listBox1.Items.Clear();
             Graphics g = panel1.CreateGraphics();
             g.Clear(Color.White);
             Random random = new Random();
@@ -126,7 +128,7 @@ namespace Елернинг
                 }
                 if (listBox1.Items[0] == "Влево")
                 {
-                    if (start.Y != 0)
+                    if (start.X != 0)
                     {
                         g.FillEllipse(Brushes.White, start.X * one, start.Y * one, 50, 50);
                         g.FillEllipse(Brushes.Red, (start.X - 1) * one, start.Y * one, one, one);
@@ -139,10 +141,10 @@ namespace Елернинг
                     timer1.Stop();
                     listBox1.Items.Clear();
                     MessageBox.Show("Game over");
+                    Srartt.Enabled = false;
                 }
             }
             else timer1.Stop();
         }
     }
 }
-
