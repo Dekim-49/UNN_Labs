@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\лабы\Homework1\bin\Debug\Homework1.exe.config
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\лабы\Homework1\bin\Debug\Homework1.exe
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\лабы\Homework1\bin\Debug\Homework1.pdb
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\лабы\Homework1\obj\Debug\Homework1.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\лабы\Homework1\obj\Debug\Homework1.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\лабы\Homework1\obj\Debug\Homework1.exe
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\лабы\Homework1\obj\Debug\Homework1.pdb
