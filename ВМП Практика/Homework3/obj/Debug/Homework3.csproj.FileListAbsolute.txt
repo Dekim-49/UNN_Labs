@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homework3\bin\Debug\Homework3.exe.config
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homework3\bin\Debug\Homework3.exe
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homework3\bin\Debug\Homework3.pdb
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homework3\obj\Debug\Homework3.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homework3\obj\Debug\Homework3.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homework3\obj\Debug\Homework3.exe
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homework3\obj\Debug\Homework3.pdb
