@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homewirk6\bin\Debug\Homewirk6.exe.config
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homewirk6\bin\Debug\Homewirk6.exe
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homewirk6\bin\Debug\Homewirk6.pdb
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homewirk6\obj\Debug\Homewirk6.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homewirk6\obj\Debug\Homewirk6.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homewirk6\obj\Debug\Homewirk6.exe
+C:\Users\ASUS\Desktop\ННГУ\3 курс\Высокоуровневые методы программирования\Практика\ВМП Практика\Homewirk6\obj\Debug\Homewirk6.pdb
